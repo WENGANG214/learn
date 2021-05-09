@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+        
+        div:hover {
+            /* transform: scale(x, y) x 横向放大倍数 y 纵向放大倍数 */
+            /* transform: scale(2, 1); */
+            /* 等比例放大 */
+            /* transform: scale(2); */
+            /* 缩小 */
+            transform: scale(0.5);
+            /* scale 优势：不会影响其他盒子；从中心点向外放大；可以设置放大中心点 */
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

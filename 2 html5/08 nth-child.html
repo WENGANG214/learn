@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 第n个，n从0开始
+        ul li:nth-child(n) {
+            background-color: green;
+        } */
+        /* 第偶数个 
+        ul li:nth-child(2n) {
+            background-color: red;
+        } */
+        /* 第奇数个
+        ul li:nth-child(2n+1){
+            background-color:yellow;
+        } */
+        /* 第5n个 
+        ul li:nth-child(5n) {
+            background-color: purple;
+        } */
+        /* 从第5个开始往后选择
+        ul li:nth-child(n+5){
+            background-color:yellow;
+        } */
+        /* 选择前面5个 */
+        
+        ul li:nth-child(-n+5) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>
+</body>
+
+</html>
