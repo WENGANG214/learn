@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+            background: url(images/dog.jpg) no-repeat;
+            /* background-size: 图片宽度 图片高度; */
+            /* background-size: 500px 200px; */
+            /* 如果只写一个值，就是宽度，高度会等比例缩放 */
+            /* background-size: 500px; */
+            /* 里面的单位可以写%，相对于父盒子来说 */
+            /* background-size: 50%; */
+            /* cover 等比例拉伸至完全覆盖盒子 可能有背景图片显示不全 */
+            /* background-size: cover; */
+            /* contain 高度和宽度等比例拉伸 当其一铺满div盒子就不再继续拉伸 可能有部分空白区域 */
+            background-size: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
