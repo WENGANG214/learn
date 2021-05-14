@@ -1,0 +1,15 @@
+@border:5px + 5;
+@baseFont:50px;
+// 运算符左右必须有空格
+// 两个数只有一个有单位的，运算后以这个单位为准
+// 两个数都有单位，而且不一样，预算后以第一个为准
+div{
+    width: 200px - 50;
+    height: (200px + 50 )* 2;
+    border: @border solid red;
+    background-color: #666 - #222;
+}
+img{
+    width: 82rem / @baseFont;
+    height: 82rem / @baseFont;
+}

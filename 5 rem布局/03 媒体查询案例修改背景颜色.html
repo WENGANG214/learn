@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 媒体查询一般按照从小往大或者从大往小的顺序来
+    小于540背景变为蓝色   */
+        
+        @media screen and (max-width:539px) {
+            body {
+                background-color: blue;
+            }
+        }
+        /* 540-570 背景变为绿色 */
+        /* @media screen and (min-width:540px) and (max-width:969px) {
+            body {
+                background-color: green;
+            }
+        } */
+        
+        @media screen and (min-width:540px) {
+            body {
+                background-color: green;
+            }
+        }
+        /* 大于970背景变为红色 */
+        
+        @media screen and (min-width:970px) {
+            body {
+                background-color: red;
+            }
+        }
+        /* screen 和 and 是不能省略的 */
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
